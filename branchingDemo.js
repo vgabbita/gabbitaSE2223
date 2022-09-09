@@ -7,5 +7,10 @@ const d = new Date();
 
 //get month() reutrns the month a an integer (0-11). Jan = 0 Dec = 12
 let month = months[d.getMonth()];
+let day = d.getDate();
+let year = d.getFullYear()
 
-console.log('The date is '+ d);
+let currentDate = 'The date is '+ month + " " + day + " " + year;
+
+console.log(d);
+console.log(currentDate);
