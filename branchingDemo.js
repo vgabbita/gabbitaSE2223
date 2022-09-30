@@ -10,7 +10,7 @@ let month = months[d.getMonth()];
 let day = d.getDate();
 let year = d.getFullYear()
 
-let currentDate = 'The date is '+ month + " " + day + " " + year;
+let currentDate = 'The current date is '+ month + " " + day + " " + year;
 
 console.log(d);
 console.log(currentDate);

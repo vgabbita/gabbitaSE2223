@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/WebDev/Lesson 1/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark nb-bg-color">
+        <div class="container">
+            <a href="./index.html" class="navbar-brand hover-scale" id = "nBMenuItem">
+                <img src="./Pics/Leaf.png" alt ="Back to Overviewt" class = "d-inline-block align-text-top w-25">
+            </a>
+
+        <!--Hamburger Menu Button-->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!--Collapsible navbar menu with custom hover underline CSS animation-->
+        <div class="collapse navbar-collapse" id="navmenu">
+
+            <!--Links to hamburger menu button-->
+            <ul class="navbar-nav ms-auto" id = "hover">
+                <li class="nav-item">
+                    <a href="./author.html" class="nav-link hover-underline-animation" id="nBMenuItem">Author</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./procedure.html" class="nav-link hover-underline-animation" id="nBMenuItem">Procedure</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/results.html" class="nav-link hover-underline-animation" id="nBMenuItem">Results</a>
+                </li>
+            </ul>
+
+        </div>
+
+        </div>
+    </nav>
+    
+
+    <!--Add Procedure Here-->
+    <section class = "procedure text-dark p-2 text-left">
+        <div class = 'container'>
+            <div class="row">
+                <div class="col-sm-4" id = "center">
+                    <img class="img-fluid" style="border:3px solid #e97feb; position: relative; bottom:50px;" src="./Pics/Application.JPG"  alt="Creation of the Extracts">  <!--ADD IMAGE-->
+                </div>
+                <div class="col-sm-8 p-3" style="border:3px solid #f74cc1;">
+                    <h1 class = 'icon-white' id="ovPadLeft">1. Creation of the Extracts</h1>
+                    <p class="lead overview-font" id="ovPadLeft">
+                        <ul class = "chFont icon-white">
+                            <li>To make the oregano and coneflower extract, clean and dry leaves from an oregano and coneflower plants were taken.</li>
+                            <br>
+                            <li> They were then placed into the mason jar.</li>
+                            <br>
+                            <li>Parchment paper was placed in between the lid and the jar to prevent rust.</li>
+                            <br>
+                            <li>The jar was sealed and placed in a cool, dark place for 8 weeks while being shaken once every day.</li> 
+                            <br>
+                            <li>After the 8 weeks were completed, the extracts were strained with strainers and cheesecloth</li>
+                        </ul>
+                    </p>    
+                </div> 
+            </div>
+
+            <div class="row">
+                <div class="col-sm-8 p-3" style="border:2px solid #f74cc1;">
+                    <h1 class = 'icon-white' id="ovPadRight">2. Preparation of Petri Dishes and Bacteria</h1>
+                    <p class="lead overview-font" id="ovPadRight">
+                        <ul class = 'chFont icon-white'>
+                            <li>The 8 plastic Petri dishes in this experiment(one for each cleaning agent and one for the positive control)were coated with Agar to grow the bacteria.</li>
+                            <br>
+                            <li>To make this, the solid Agar was brought to room temperature and poured into each Petri dish.</li>  
+                            <br>                      
+                            <li>The bacterial concentration was brought to room temperature. </li>
+                            <br>
+                            <li>100 microliters were placed into each Petri dish through a micropipette.</li>
+                            <br>
+                            <li>Using an L-spreader, the bacteria was spread evenly across the Petri dish such that it covered the entire surface.</li>
+                            <br>
+                            <li>The Petri dishes were placed in the insulator overnight and left upside down to prevent condensation from occurring.</li>
+                        </ul>
+                    </p>    
+                </div> 
+                <div class="col-sm-4 p-3">
+                    <img class="img-fluid height-25" style="border:3px solid #e97feb; position: relative; top:50px;" src="./Pics/ApllicationExt.JPG"  alt="Application of Extracts">  <!--ADD IMAGE-->
+                </div> 
+            </div>
+            <div class="row">
+                <div class="col-sm-4 p-3">
+                    <img class="img-fluid scalePic"  style="border:3px solid #e97feb;" src="./Pics/CreationExtr.JPG"  alt="Application of Cleaning Agents">  <!--ADD IMAGE-->
+                </div>
+                <div class="col-sm-8 p-3" style="border:2px solid #f74cc1;">
+                    <h1 class = 'icon-white' id="ovPadLeft">3. Application of Cleaning Agent</h1>  <!--Add description of research course in a few sentences-->
+                    <p class="lead overview-font " id="ovPadLeft">
+                        <ul class = 'chFont icon-white'>
+                            <li>Soap, water, Vinegar, Homemade and pre-made extracts, and Ethanol were used</li>
+                            <br>
+                            <li> 100 microliters of each condition were placed onto three antibiotic disc and left overnight.</li>
+                            <br>
+                            <li>The discs for each condition were placed equidistant from each other on their respective Petri dish</li>
+                            <br>
+                            <li>The Petri dishes were left untouched for 24 hours</li>   
+                            <br>    
+                            <li>The data collection process was continued for two more days.</li>
+                        </ul>    
+                    </p>    
+                </div> 
+            </div>
+            <div class="row">
+                <div class="col-sm-8 p-3" style="border:2px solid #f74cc1;">
+                    <h1 class = 'icon-white' id="ovPadLeft">4. Collection of Data</h1>  <!--Add description of research course in a few sentences-->
+                    <p class="lead overview-font icon-white " id="ovPadLeft">
+                        <ul class = "chFont icon-white">
+                            <li>Once the Petri dishes were left for their specified amount of time, the data was collected.</li> 
+                            <br>
+                            <li>To do this, the diameters of the zones where all the bacteria were killed were recorded</li>
+                            <br>
+                            <li>This process was repeated for all three discs of each condition at each respective time.</li> 
+                            <br>
+                            <li>The average diameter of the zone for each of the conditions was taken to determine which conditions were the most effective at killing Bacteria.</li>
+                        </ul>
+                    </p>    
+                </div> 
+                <div class="col-sm-4 p-3" id = "height" >
+                    <img class="img-fluid" style="border:3px solid #e97feb;" src="./Pics/Collection.jpg"  alt="Collection of Data">  <!--ADD IMAGE-->
+                </div>
+    </section>
+</body>
+
+<footer class = 'position-relative text-center' > 
+    <p> Copyright &copy; SE 2022 Research Website </p>
+    <a href="#" class="position-absolute bottom-0 end-0 p-2">
+        <i class="bi bi-arrow-up-circle h2 icon-purple"></i>
+    </a>
+</footer>
+
+</html>
