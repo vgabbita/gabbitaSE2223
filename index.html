@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varun Research Project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/WebDev/Lesson 1/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark nb-bg-color">
+        <div class="container">
+        <a href="./index.html" class="navbar-brand hover-scale" id = "nBMenuItem">
+            <img src="./Pics/Leaf.png" alt ="Back to Overview" class = "d-inline-block align-text-top w-25">
+        </a>
+
+        <!--Hamburger Menu Button-->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!--Collapsible navbar menu with custom hover underline CSS animation-->
+        <div class="collapse navbar-collapse" id="navmenu">
+
+            <!--Links to hamburger menu button-->
+            <ul class="navbar-nav ms-auto" >
+                <li class="nav-item">
+                    <a href="./author.html" class="nav-link hover-underline-animation" id="nBMenuItem">Author</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./procedure.html" class="nav-link hover-underline-animation" id="nBMenuItem">Procedure</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/results.html" class="nav-link hover-underline-animation" id="nBMenuItem">Results</a>
+                </li>
+            </ul>
+
+        </div>
+
+        </div>
+    </nav>
+    
+    <!--Showcase-->
+    <section class="showcase text-light p-2 text-center">
+        <div class="container">
+            <div class = 'row'>
+                <div class="col-sm-6 p-0 d-flex align-text-center" style="border:5px solid #cb0fb5;"> 
+                    <img class="img-fluid" src="./Pics/Title Pic.jpg" alt="Website Logo">
+                </div>
+                <div class="col-sm-6 p-4 d-flex align-text-center" id = "title"> 
+                    <div class = 'container'>
+                        <h1 style = "font-family: Verdana, Geneva, Tahoma, sans-serif;"> The Effect of Plant Extracts Compared to Different Everyday Household Disinfectants on Various Types of Bacteria </h1>
+                        <br>
+                        <h2 style = "font-family:'Times New Roman', Times, serif">Building a Site with Bootstrap</h2>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Overview -->
+    <section class="overview text-dark p-2 text-left">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 p-3"   >
+                    <img class="img-fluid" style="border:5px solid #cb0fb5;" src="./Pics/Background Pic.JPG"  alt="Coneflower and Oregano Leaves">  <!--ADD IMAGE-->
+                </div>
+                <div class="col-sm-8 p-3">
+                    <h1 id="ovPadLeft">Background</h1>
+                    <p class="lead overview-font" id="ovPadLeft">Bacteria are known to cause many human diseases. However, research has found that the most common way to combat bacteria, soap, can potentially cause long-term harm to the user. This investigation aims to find replacements for these disinfectants, which are easier to obtain in large quantities and safer to use.  Based on previous research on this topic, it was hypothesized that the plant extracts and household disinfectants would affect the growth of the E.coli, which was the bacteria used in the experiment. The conditions tested in this study included 95% Ethanol as the positive control, room-temperature water, vinegar, premade coneflower extract, homemade coneflower extract, premade oregano extract, homemade oregano extract, and antibacterial soap. To apply the conditions to the E.coli, disc diffusion tests were performed, and the diameter of the zones created was recorded in centimeters for three days. The resulting data was analyzed using the averages, the differences between each condition and the control, and an ANOVA test, which were followed by t-tests. The results showed that the order of effectiveness against the bacteria was the soap, followed by the homemade coneflower, followed by the positive control, followed by the premade oregano, followed by the homemade oregano, followed by the premade coneflower, followed lastly by the water and vinegar. It was concluded that though the oregano and coneflower extracts were not as effective as the antibacterial soap, they could be used as a replacement which would effectively kill bacteria. 	
+
+                    </p>    
+                </div> 
+            </div>
+
+            <div class="row">
+                <div class="col-sm-8 p-3">
+                    <h1 id="ovPadRight">Rationale</h1>
+                    <p class="lead overview-font" id="ovPadRight">The purpose of this investigation is to research deeper into the effectiveness of plant extracts. Increased knowledge in this topic could help prevent unwanted infections from spreading. As mentioned above, the use of soap could cause contaminated microorganisms to pool together and pose a danger to the users. These microorganisms contain bacteria that are known to be dangerous to humans. A past study showed that gram-negative and gram-positive bacteria, two bacteria that are very common on soaps that have contaminated microorganisms, are harmful to humans. The researchers found that both posed a large danger if exposed to humans, with gram-negative bacteria being extremely prevalent (Alexandraki). Being able to use plant extracts as a replacement could allow for that possibility to be avoided, and for a safer way to get rid of external bacteria. 
+                    </p>    
+                </div> 
+                <div class="col-sm-4 p-3">
+                    <img class="img-fluid height-25" style="border:5px solid #cb0fb5;" src="./Pics/Rationale Pic.JPG"  alt="Extracts">  <!--ADD IMAGE-->
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4 p-3" id = "scale">
+                    <img class="img-fluid" style="border:5px solid #cb0fb5;"  src="./Pics/Research.jfif"  alt="">  <!--ADD IMAGE-->
+                </div>
+                <div class="col-sm-8 p-3">
+                    <h1 id="ovPadLeft">Research Practicum</h1>  <!--Add description of research course in a few sentences-->
+                    <p class="lead overview-font" id="ovPadLeft">Research Practicum is one of the many STEM-related courses offered at High Technology High School. In this course, students learn to follow the scientific process and conduct individual experiments. With the help of their research mentor, they come up with novel ideas and test them using proper scientific procedure. At the end of the experiment, students are expected to write a final paper containing all the components of a professional scientific paper. It gives students the knowledge and experience they need to pursue similar activities in the future. </p>    
+                </div> 
+            </div>
+            
+
+        </div>
+    </section>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
+            crossorigin="anonymous"></script>
+</body>
+
+<footer class = 'position-relative text-center' > 
+    <p> Copyright &copy; SE 2022 Research Website </p>
+    <a href="#" class="position-absolute bottom-0 end-0 p-2">
+        <i class="bi bi-arrow-up-circle h2 icon-purple"></i>
+    </a>
+</footer>
+</html>
