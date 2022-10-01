@@ -1,3 +1,15 @@
+
+/*---------------Element CSS------------------ */
+footer {
+    background-color: rgb(194, 75, 188);
+    text-align: center;
+    padding: 20px; 
+    height: 60px;
+    color: white;
+
+}
+
+
 /* -------------- Class CSS ------------------ */
 
 .nb-bg-color{
@@ -34,14 +46,6 @@
     background-color: rgba(85, 28, 89, 0.758);
 }
 
-footer {
-    background-color: rgb(194, 75, 188);
-    text-align: center;
-    padding: 20px; 
-    height: 60px;
-    color: white;
-
-}
 .scalePic {
     position: relative;
     top: 100px;
@@ -104,7 +108,7 @@ p#ovPadRight{
     margin: auto;
 }
 
-/* -------------- Underline Animation CSS ------------------ */
+/* -------------- Underline Animation and Enlarge Animation CSS ------------------ */
 .hover-underline-animation {
     display: inline-block;
     position: relative;
