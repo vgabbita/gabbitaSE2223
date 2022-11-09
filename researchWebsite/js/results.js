@@ -4,7 +4,7 @@
 
 
 async function getData(){
-    const response = await fetch('../data/VarunResults.csv');
+    const response = await fetch('data/VarunResults.csv');
     const data = await response.text(); // CSV in TEXT format
     //console.log(data);
     const xDays = []; // x-axis labels = year value
