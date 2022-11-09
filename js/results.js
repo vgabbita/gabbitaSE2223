@@ -127,7 +127,7 @@ async function createChart(){
         plugins: {                          // title and legend display options
             title: {
                 display: true,
-                text: 'Diameter of Antibacterial Zone per Day After Application',
+                text: 'Diameter of Antibacterial Zone Per Day After Application',
                 font: {
                     size: 24
                 },
