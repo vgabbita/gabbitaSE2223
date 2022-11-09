@@ -63,6 +63,12 @@ footer {
     transform: scale(0.8);
 }
 
+.results {
+    background-color: rgba(223, 142, 228, 0.758);
+}
+.results-bg {
+    background-color: rgba(133, 50, 137, 0.758);
+}
 /* -------------- ID CSS ------------------ */
 #nBMenuItem{
     font-size: 25px;
