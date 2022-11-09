@@ -13,9 +13,7 @@ async function getData(){
     const yConeHome = []; //y-axis value
     const yOrePre = []; //y-axis value
     const yOreHome = []; //y-axis value
-    const ySoap = []; //y-axis value
-    const yWater = []; //y-axis value
-    const yVinegar = []; //y-axis value
+    const ySoap = []; //y-axis value        
 
     const table = data.split('\n').slice(1);       // split by line and remove the 0th row
     //console.log(table);
@@ -97,7 +95,7 @@ async function createChart(){
         },
         options: {
             responsive: true,                   // Re-size based on screen size
-            scales: {                           // x & y axes display options
+            scales: {
                 x: {
                     title: {
                         display: true,
@@ -124,8 +122,24 @@ async function createChart(){
                             size: 20
                         },
                     }
+                },
+        },
+        plugins: {                          // title and legend display options
+            title: {
+                display: true,
+                text: 'Diameter of Antibacterial Zone per Day After Application',
+                font: {
+                    size: 24
+                },
+                padding: {
+                    top: 10,
+                    bottom: 30
                 }
-        }
+            },
+            legend: {
+                position: 'top'
+            }
+        }   
         }
     });
 
